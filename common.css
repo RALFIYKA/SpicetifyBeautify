@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  height: 100%;
+}
+
+.vl {
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 1080px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+
+.hl {
+  width: 192.5px;
+  position: absolute;
+  margin-top: -0.75px;
+  /*  width: 20%; */
+}
+
+.mainlist {
+  /*position: absolute;*/
+  margin-top: 30px;
+  margin-left: -20px;
+}

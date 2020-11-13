@@ -24,6 +24,7 @@
   width: 192.5px;
   height: 10000px;
   margin-left: -20px;
+<<<<<<< HEAD
   background-image: url("https://www.itl.cat/pngfile/big/157-1572191_hd-wallpapers-for-website-background-cool-background-image.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -45,3 +46,6 @@
     /* Safari, Android, iOS */
       url("../fonts/aladin-v9-latin-regular.svg#Aladin") format("svg"); /* Legacy iOS */
 }
+=======
+}
+>>>>>>> 26a734b33477fddc6285ce18a3093a2851cf91f1

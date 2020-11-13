@@ -24,7 +24,7 @@
   width: 192.5px;
   height: 10000px;
   margin-left: -20px;
-  background-image: "./listbg.jpg";
+  background-image: url("listbg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

@@ -21,13 +21,33 @@
   background-size: 100% 100%;
 }
 
-#themes {
+#maintheme_container{
   position: absolute;
   left: 200px;
   top: 0;
 }
+#theme_1 {
 
-#theme_photo {
-  width: 100px;
-  height: 100px;
 }
+#image_theme {
+  width: 350px;
+  height: 220px; 
+  border-radius: 8px;
+  background-image:url("theme_1.png");
+  background-size: 100% 100%;
+  margin-top: 25px;
+  margin-left:50px;
+}
+#theme_2 {
+  position: absolute;
+  left: 525px;
+  top: 0;
+}
+#image_theme_2 {
+  width: 350px;
+  height: 220px; 
+  border-radius: 8px;
+  background-image:url("theme_2.png");
+  background-size: 100% 100%;
+  margin-top: 25px;
+  margin-left:50px;

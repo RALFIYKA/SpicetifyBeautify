@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/RALFIYKA/Spicetify-themes-app#readme",
   "devDependencies": {
-    "electron": "^10.1.5"
+    "electron": "^10.1.6"
   }
 }

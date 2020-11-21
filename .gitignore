@@ -5,3 +5,9 @@ node_modules/
 /*node_modules/ #omg when would it work
 node_modules
 settings.json
+*.idea
+.idea/
+*.idea/
+/.idea/
+/*.idea/ #omg when would it work
+.idea

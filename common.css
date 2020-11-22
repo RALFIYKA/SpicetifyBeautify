@@ -15,16 +15,6 @@
   background-size: 100% 100%;
 }
 
-#mainlist {
-  border: 1px solid #000000;
-  width: 192.5px;
-  height: 10000px;
-  margin-left: -20px;
-  background-image: url("listbg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
 #maintheme_container {
   position: absolute;
   left: 181px;
@@ -43,10 +33,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 #image_theme {
+  float: left;
   width: 350px;
   height: 220px;
   border-radius: 8px;
@@ -57,6 +49,7 @@
 }
 
 #image_theme_2 {
+  float: left;
   width: 350px;
   height: 220px;
   border-radius: 8px;
@@ -67,6 +60,7 @@
 }
 
 #image_theme_3 {
+  float: left;
   width: 350px;
   height: 220px;
   border-radius: 8px;

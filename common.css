@@ -42,29 +42,6 @@
   width: 350px;
   height: 220px;
   border-radius: 8px;
-  background-image: url("theme_1.png");
-  background-size: 100% 100%;
-  margin-top: 25px;
-  margin-left: 50px;
-}
-
-#image_theme_2 {
-  float: left;
-  width: 350px;
-  height: 220px;
-  border-radius: 8px;
-  background-image: url("theme_2.png");
-  background-size: 100% 100%;
-  margin-top: 25px;
-  margin-left: 50px;
-}
-
-#image_theme_3 {
-  float: left;
-  width: 350px;
-  height: 220px;
-  border-radius: 8px;
-  background-image: url("theme_3.png");
   background-size: 100% 100%;
   margin-top: 25px;
   margin-left: 50px;

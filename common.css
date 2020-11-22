@@ -36,10 +36,14 @@
   background-size: 100% 100%;
 }
 
-#theme_1 {
+#theme {
   position: absolute;
-  left: 225px;
-  top: 20px;
+  float: right;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #image_theme {
@@ -52,17 +56,21 @@
   margin-left: 50px;
 }
 
-#theme_2 {
-  position: absolute;
-  left: 125px;
-  top: 0;
-}
-
 #image_theme_2 {
   width: 350px;
   height: 220px;
   border-radius: 8px;
   background-image: url("theme_2.png");
+  background-size: 100% 100%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+#image_theme_3 {
+  width: 350px;
+  height: 220px;
+  border-radius: 8px;
+  background-image: url("theme_3.png");
   background-size: 100% 100%;
   margin-top: 25px;
   margin-left: 50px;

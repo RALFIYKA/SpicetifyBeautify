@@ -56,3 +56,16 @@
   margin-left: 50px;
   margin-right: 50px;
 }
+
+#buttons_list {
+  position: absolute;
+  float: right;
+  right: 20px;
+  bottom: 30px;
+}
+
+#buttons {
+  border: none;
+  background-color: #464953;
+  color: rgb(40, 241, 40);
+}

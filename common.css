@@ -48,6 +48,11 @@
   flex-wrap: wrap;
 }
 
+a.link {
+  color: #ffffff70;
+  text-decoration: none;
+}
+
 .image_theme {
   padding: 10px;
   float: left;

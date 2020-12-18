@@ -38,7 +38,7 @@
   background-size: 100% 100%;
 }
 
-.theme {
+.themes {
   position: absolute;
   float: left;
   /* display: flex; */
@@ -53,7 +53,7 @@ a.link {
   text-decoration: none;
 }
 
-.image_theme {
+.theme-image {
   padding: 10px;
   float: left;
   width: 450px;
@@ -66,17 +66,16 @@ a.link {
   margin-bottom: 10px;
 }
 
-
 /* #image_theme_font {} */
 
-.buttons_list {
+.page-list {
   position: absolute;
   float: right;
   right: 20px;
   bottom: 0px;
 }
 
-.buttons {
+.page-btn {
   border: none;
   background-color: #464953;
   color: rgb(184, 40, 241);
@@ -124,6 +123,180 @@ a.link {
   text-align: center;
 }
 
+.hvr-btn1 {
+  position: absolute;
+  z-index: 5;
+  top: 220px;
+  left: -50%;
+  width: 100px;
+  height: 20px;
+  background-color: #0cff72;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hvr-btn1:before {
+  opacity: 1;
+}
+
+.hvr-btn1:hover,
+.hvr-btn1:focus,
+.hvr-btn1:active {
+  color: white;
+  opacity: 1;
+}
+
+.hvr-btn1:hover:before,
+.hvr-btn1:focus:before,
+.hvr-btn1:active:before {
+  content: "Install";
+  color: rgb(187, 187, 187);
+  align-content: center;
+  text-align: center;
+  opacity: 1;
+}
+
+.hvr-btn2 {
+  position: absolute;
+  z-index: 5;
+  top: 220px;
+  left: -50%;
+  width: 100px;
+  height: 20px;
+  background-color: #0cff72;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hvr-btn2:before {
+  opacity: 1;
+}
+
+.hvr-btn2:hover,
+.hvr-btn2:focus,
+.hvr-btn2:active {
+  color: white;
+  opacity: 1;
+}
+
+.hvr-btn2:hover:before,
+.hvr-btn2:focus:before,
+.hvr-btn2:active:before {
+  content: "Install";
+  color: rgb(187, 187, 187);
+  align-content: center;
+  text-align: center;
+  opacity: 1;
+}
+
+.hvr-btn-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-btn-sweep-to-top:before {
+  content: "  ";
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  width: 440px;
+  height: 50px;
+  margin-left: -180px;
+  background: #dadada;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-btn-sweep-to-top:hover,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:active {
+  color: white;
+}
+
+.hvr-btn-sweep-to-top:hover:before,
+.hvr-btn-sweep-to-top:focus:before,
+.hide:hover .hide-item,
+.hide:focus .hide-item,
+.hvr-btn-sweep-to-top:active:before {
+  padding: 10px;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+  content: "  ";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  width: 440px;
+  height: 275px;
+  margin-left: 15px;
+  background: #222222;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:active {
+  color: white;
+}
+
+.hvr-sweep-to-top:hover:before,
+.hvr-sweep-to-top:focus:before,
+.hide:hover .hide-item,
+.hide:focus .hide-item,
+.hvr-sweep-to-top:active:before {
+  padding: 10px;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
 
 /* hide element */
 
@@ -171,85 +344,6 @@ a.link {
 
 
 /* } */
-
-.hvr-sweep-to-top {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.hvr-sweep-to-top:before {
-<<<<<<< HEAD
-  content: "  ";
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 5px;
-  right: 0;
-  bottom: 0;
-  width: 440px;
-  height: 275px;
-  margin-left: 15px;
-  background: #222222;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-=======
-    content: "  ";
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #222222b0;
-    -webkit-filter: blur(3px);
-    /* Safari 6.0 - 9.0 */
-    filter: blur(3px);
-    border-radius: 20px;
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
->>>>>>> 7ef330142b936f578b698aaca3a4ea76c1750321
-}
-
-.hvr-sweep-to-top:hover,
-.hvr-sweep-to-top:focus,
-.hvr-sweep-to-top:active {
-  color: white;
-}
-
-.hvr-sweep-to-top:hover:before,
-.hvr-sweep-to-top:focus:before,
-.hide:hover .hide-item,
-.hide:focus .hide-item,
-.hvr-sweep-to-top:active:before {
-  padding: 10px;
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
-
 
 /* .list {
     list-style: none;

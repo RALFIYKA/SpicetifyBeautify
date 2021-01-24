@@ -15,7 +15,6 @@
     height: 50px;
     border-right: 1px solid #000000;
     background: #25252593;
-    /* background-image: url("https://i.pinimg.com/originals/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg"); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -41,9 +40,7 @@
 .themes {
     position: absolute;
     float: left;
-    /* display: flex; */
     flex-direction: row;
-    /* justify-content: center; */
     align-items: stretch;
     flex-wrap: wrap;
 }
@@ -60,20 +57,15 @@ a.link {
     height: 281px;
     border-radius: 8px;
     background-size: 100% 100%;
-    /* margin-top: 25px; */
     margin-left: 15px;
-    /* margin-right: 100px; */
     margin-bottom: 10px;
 }
-
-
-/* #image_theme_font {} */
 
 .page-list {
     position: absolute;
     float: right;
-    right: 20px;
-    bottom: 0px;
+    right: 3px;
+    bottom: -10px;
 }
 
 .page-btn {
@@ -83,7 +75,6 @@ a.link {
 }
 
 .hvr1 {
-    /* content: "$0"; */
 }
 
 .hvr1:before {}
@@ -124,72 +115,25 @@ a.link {
     text-align: center;
 }
 
-.hvr-btn1 {
-    /* position: absolute;
-  z-index: 5;
-  top: 220px;
-  left: -50%;
-  width: 100px;
-  height: 20px;
-  background-color: #0cff72; */
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    /* opacity: 0; */
-}
-
-.hvr-btn1:before {
-    opacity: 1;
-}
-
-.hvr-btn1:hover,
-.hvr-btn1:focus,
-.hvr-btn1:active {
-    color: white;
-    opacity: 1;
-}
-
-.hvr-btn1:hover:before,
-.hvr-btn1:focus:before,
-.hvr-btn1:active:before {
-    content: "Install";
-    color: rgb(187, 187, 187);
-    align-content: center;
-    text-align: center;
-    opacity: 1;
-}
-
-.hvr-btn2 {
+.btn {
+    font-family: "Noto Sans JP", sans-serif;
+    content: "instal";
+    background-color: rgba(90, 17, 138, 0.712);
     position: absolute;
+    border-radius: 5px;
     z-index: 5;
-    top: 220px;
-    left: -50%;
+    border: 0;
+    top: 291.25px;
+    left: 375px;
     width: 100px;
-    height: 20px;
-    background-color: #0cff72;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    opacity: 0;
+    height: 30px;
+    transition: 1s;
+    /* opacity: 0.50; */
 }
-
-.hvr-btn2:before {
-    opacity: 1;
-}
-
-.hvr-btn2:hover,
-.hvr-btn2:focus,
-.hvr-btn2:active {
+  
+.btn:hover { content: "instal";
+    background-color: rgba(0, 139, 132, 0.692);
     color: white;
-    opacity: 1;
-}
-
-.hvr-btn2:hover:before,
-.hvr-btn2:focus:before,
-.hvr-btn2:active:before {
-    content: "Install";
-    color: rgb(187, 187, 187);
-    align-content: center;
-    text-align: center;
-    opacity: 1;
 }
 
 .hvr-sweep-to-top {
@@ -209,19 +153,19 @@ a.link {
     content: "  ";
     position: absolute;
     z-index: 0;
-    top: 223px;
+    top: 10px;
     left: 10px;
     right: 0;
     bottom: 0;
     width: 450px;
-    height: 70px;
+    height: 20px;
     margin-left: 15px;
     opacity: 0.85;
     background: #222222;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
-    -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
     -webkit-transition-property: transform;
     transition-property: transform;
     -webkit-transition-duration: 0.3s;
@@ -245,94 +189,3 @@ a.link {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
-
-
-/* hide element */
-
-
-/* .hide:hover .hide-item,
-.hide:focus .hide-item {
-    opacity: 1;
-}
-
-.hide {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-} */
-
-
-/* .hide>* {
-    flex: 0 0 25%;
-    font-size: 2em;
-    text-align: center;
-    padding: 1em 0;
-    margin: 0.2em; */
-
-
-/* background-color: #ccc; */
-
-
-/* border-radius: 0.5em;
-    user-select: none;
-}
-
-.hide-item { */
-
-
-/* background-color: #f66; */
-
-
-/* cursor: pointer;
-    opacity: 0; */
-
-
-/* display: none; */
-
-
-/* } */
-
-
-/* .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.list li {
-    flex: 1;
-}
-
-.list li a {
-    text-decoration: none;
-    color: inherit;
-    padding-top: 1rem;
-    display: block;
-    text-align: center;
-    overflow: hidden;
-    font-size: 40px;
-}
-
-.list li a span {
-    display: block;
-    background: rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    font-size: 22px;
-    margin-top: 1rem;
-}
-
-@media (hover: hover) {
-    .list li a span {
-        transform: translateY(400px);
-        transition: 0.2s;
-    }
-    .list:hover span {
-        transform: translateY(0);
-    }
-    .list li:nth-child(1) span {
-        transition-delay: 0.0s;
-    }
-} */

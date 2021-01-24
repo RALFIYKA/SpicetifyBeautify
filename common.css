@@ -1,88 +1,89 @@
 .bodystyle {
-  height: 1080px;
-  background: #36393f;
+    height: 1080px;
+    background: #36393f;
 }
 
 .header {
-  color: #ffffff70;
-  font-family: "Dancing Script", cursive;
-  font-size: 18px;
-  position: relative;
-  margin-top: -19px;
-  margin-left: -8px;
-  align-content: flex;
-  width: 181px;
-  height: 50px;
-  border-right: 1px solid #000000;
-  background: #25252593;
-  /* background-image: url("https://i.pinimg.com/originals/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg"); */
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+    color: #ffffff70;
+    font-family: "Dancing Script", cursive;
+    font-size: 18px;
+    position: relative;
+    margin-top: -19px;
+    margin-left: -8px;
+    align-content: flex;
+    width: 181px;
+    height: 50px;
+    border-right: 1px solid #000000;
+    background: #25252593;
+    /* background-image: url("https://i.pinimg.com/originals/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .lifont {
-  margin-left: -30px;
-  color: #ffffff70;
-  font-family: "Noto Sans JP", sans-serif;
-  list-style-type: none;
+    margin-left: -30px;
+    color: #ffffff70;
+    font-family: "Noto Sans JP", sans-serif;
+    list-style-type: none;
 }
 
 .maintheme_container {
-  position: absolute;
-  left: 181px;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #28292c;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+    position: absolute;
+    left: 181px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #28292c;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .themes {
-  position: absolute;
-  float: left;
-  /* display: flex; */
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: stretch;
-  flex-wrap: wrap;
+    position: absolute;
+    float: left;
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
 a.link {
-  color: #ffffff70;
-  text-decoration: none;
+    color: #ffffff70;
+    text-decoration: none;
 }
 
 .theme-image {
-  padding: 10px;
-  float: left;
-  width: 450px;
-  height: 281px;
-  border-radius: 8px;
-  background-size: 100% 100%;
-  /* margin-top: 25px; */
-  margin-left: 15px;
-  /* margin-right: 100px; */
-  margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    width: 450px;
+    height: 281px;
+    border-radius: 8px;
+    background-size: 100% 100%;
+    /* margin-top: 25px; */
+    margin-left: 15px;
+    /* margin-right: 100px; */
+    margin-bottom: 10px;
 }
+
 
 /* #image_theme_font {} */
 
 .page-list {
-  position: absolute;
-  float: right;
-  right: 20px;
-  bottom: 0px;
+    position: absolute;
+    float: right;
+    right: 20px;
+    bottom: 0px;
 }
 
 .page-btn {
-  border: none;
-  background-color: #464953;
-  color: rgb(184, 40, 241);
+    border: none;
+    background-color: #464953;
+    color: rgb(184, 40, 241);
 }
 
 .hvr1 {
-  /* content: "$0"; */
+    /* content: "$0"; */
 }
 
 .hvr1:before {}
@@ -90,20 +91,20 @@ a.link {
 .hvr1:hover,
 .hvr1:focus,
 .hvr1:active {
-  color: white;
+    color: white;
 }
 
 .hvr1:hover:before,
 .hvr1:focus:before,
 .hvr1:active:before {
-  content: "111111";
-  color: rgb(187, 187, 187);
-  align-content: center;
-  text-align: center;
+    content: "111111";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
 }
 
 .hvr2 {
-  /* content: "$0"; */
+    /* content: "$0"; */
 }
 
 .hvr2:before {}
@@ -111,127 +112,128 @@ a.link {
 .hvr2:hover,
 .hvr2:focus,
 .hvr2:active {
-  color: white;
+    color: white;
 }
 
 .hvr2:hover:before,
 .hvr2:focus:before,
 .hvr2:active:before {
-  content: "222222222222222";
-  color: rgb(187, 187, 187);
-  align-content: center;
-  text-align: center;
+    content: "222222222222222";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
 }
 
 .hvr-btn1 {
-  /* position: absolute;
+    /* position: absolute;
   z-index: 5;
   top: 220px;
   left: -50%;
   width: 100px;
   height: 20px;
   background-color: #0cff72; */
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  /* opacity: 0; */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* opacity: 0; */
 }
 
 .hvr-btn1:before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .hvr-btn1:hover,
 .hvr-btn1:focus,
 .hvr-btn1:active {
-  color: white;
-  opacity: 1;
+    color: white;
+    opacity: 1;
 }
 
 .hvr-btn1:hover:before,
 .hvr-btn1:focus:before,
 .hvr-btn1:active:before {
-  content: "Install";
-  color: rgb(187, 187, 187);
-  align-content: center;
-  text-align: center;
-  opacity: 1;
+    content: "Install";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+    opacity: 1;
 }
 
 .hvr-btn2 {
-  position: absolute;
-  z-index: 5;
-  top: 220px;
-  left: -50%;
-  width: 100px;
-  height: 20px;
-  background-color: #0cff72;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  opacity: 0;
+    position: absolute;
+    z-index: 5;
+    top: 220px;
+    left: -50%;
+    width: 100px;
+    height: 20px;
+    background-color: #0cff72;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
 }
 
 .hvr-btn2:before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .hvr-btn2:hover,
 .hvr-btn2:focus,
 .hvr-btn2:active {
-  color: white;
-  opacity: 1;
+    color: white;
+    opacity: 1;
 }
 
 .hvr-btn2:hover:before,
 .hvr-btn2:focus:before,
 .hvr-btn2:active:before {
-  content: "Install";
-  color: rgb(187, 187, 187);
-  align-content: center;
-  text-align: center;
-  opacity: 1;
+    content: "Install";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+    opacity: 1;
 }
 
 .hvr-sweep-to-top {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .hvr-sweep-to-top:before {
-  content: "  ";
-  position: absolute;
-  z-index: 0;
-  top: 192px;
-  left: 5px;
-  right: 0;
-  bottom: 0;
-  width: 440px;
-  height: 80px;
-  margin-left: 15px;
-  background: #222222;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "  ";
+    position: absolute;
+    z-index: 0;
+    top: 223px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    width: 450px;
+    height: 70px;
+    margin-left: 15px;
+    opacity: 0.85;
+    background: #222222;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 
 .hvr-sweep-to-top:hover,
 .hvr-sweep-to-top:focus,
 .hvr-sweep-to-top:active {
-  color: white;
+    color: white;
 }
 
 .hvr-sweep-to-top:hover:before,
@@ -239,10 +241,11 @@ a.link {
 .hide:hover .hide-item,
 .hide:focus .hide-item,
 .hvr-sweep-to-top:active:before {
-  padding: 10px;
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
+    padding: 0px;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
 }
+
 
 /* hide element */
 
@@ -290,6 +293,7 @@ a.link {
 
 
 /* } */
+
 
 /* .list {
     list-style: none;

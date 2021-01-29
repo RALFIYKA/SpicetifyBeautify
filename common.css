@@ -29,7 +29,7 @@
 .maintheme_container {
     position: absolute;
     left: 181px;
-    top: 0;
+    top: 0px;
     width: 100%;
     height: 100%;
     background: #28292c;
@@ -39,6 +39,7 @@
 
 .themes {
     position: absolute;
+    margin-top: -10px;
     float: left;
     flex-direction: row;
     align-items: stretch;
@@ -74,8 +75,7 @@ a.link {
     color: rgb(184, 40, 241);
 }
 
-.hvr1 {
-}
+.hvr1 {}
 
 .hvr1:before {}
 
@@ -109,7 +109,7 @@ a.link {
 .hvr2:hover:before,
 .hvr2:focus:before,
 .hvr2:active:before {
-    content: "222222222222222";
+    content: "Arc-Dark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -120,6 +120,7 @@ a.link {
     content: "instal";
     background-color: rgba(90, 17, 138, 0.712);
     position: absolute;
+    outline: none;
     border-radius: 5px;
     z-index: 5;
     border: 0;
@@ -130,8 +131,9 @@ a.link {
     transition: 1s;
     /* opacity: 0.50; */
 }
-  
-.btn:hover { content: "instal";
+
+.btn:hover {
+    content: "instal";
     background-color: rgba(0, 139, 132, 0.692);
     color: white;
 }

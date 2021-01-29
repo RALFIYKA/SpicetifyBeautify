@@ -10,9 +10,16 @@
     <script src="./hovering.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+    function myFunction(){
+       WshShell = new ActiveXObject("Wscript.Shell"); //Create WScript Object
+       WshShell.run("file://C:/Users/Someone/Documents/testfile.bat", 1, true); // Please change the path and file name with your relevant available path in client system. This code can be used to execute .exe file as well
+    }
+    </script>
 </head>
 
 <body scroll="no" style="overflow: hidden" class="bodystyle">
+
     <div class="header">
         <h3> <a class="link" href="./index.html">Spicetify Themes App</a> </h3>
     </div>
@@ -31,7 +38,7 @@
             <a href="#" class="hvr1 hvr-sweep-to-top">
                 <!-- <span class="hide"><button class="hide-item">CLICK</button></span> -->
                 <img class="theme-image" src="res/Arc-Dark.png">
-                <button class="btn"> Install</button>
+                <button onclick="myFunction()" class="btn">Install</button>
             </a>
 
             <a href="#" class="hvr2 hvr-sweep-to-top">

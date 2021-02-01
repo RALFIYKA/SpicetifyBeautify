@@ -20,5 +20,8 @@
   "homepage": "https://github.com/RALFIYKA/Spicetify-themes-app#readme",
   "devDependencies": {
     "electron": "^10.1.6"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }

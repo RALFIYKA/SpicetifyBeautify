@@ -11,3 +11,9 @@ settings.json
 /.idea/
 /*.idea/ #omg when would it work
 .idea
+*.vscode
+.vscode/
+*.vscode/
+/.vscode/
+/*.vscode/ #omg when would it work
+.vscode

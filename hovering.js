@@ -9,8 +9,8 @@ function sendForm(form) {
     let fullOutput = $(form).serialize();
     let themeName = fullOutput.slice(fullOutput.search('=') + 1);
     return fileOpen(themeName);
-}
+};
 
 function fileOpen(themeName) {
-    shell.openExternal("C:/tools/Spicetify-themes-app/res/" + themeName + ".png")
+    shell.openExternal(process.cwd() + "/res/" + themeName + ".png")
 };

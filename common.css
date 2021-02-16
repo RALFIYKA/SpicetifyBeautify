@@ -90,7 +90,7 @@ a.link {
 .hvr1:hover:before,
 .hvr1:focus:before,
 .hvr1:active:before {
-    content: "111111";
+    content: "Arc-Dark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -111,7 +111,7 @@ a.link {
 .hvr2:hover:before,
 .hvr2:focus:before,
 .hvr2:active:before {
-    content: "Arc-Dark";
+    content: "Adapta-Nokto";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;

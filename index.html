@@ -1,63 +1,81 @@
 <!DOCTYPE html>
 <html style="font-size: 16px">
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Spicetify-Themes-app</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-    <link rel="stylesheet" href="./common.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Spicetify-Themes-app</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <link rel="stylesheet" href="./common.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
 
-<body scroll="no" style="overflow: hidden" class="bodystyle">
+    <body scroll="no" style="overflow: hidden" class="bodystyle">
 
-    <div class="header">
-        <h3> <a class="link" href="./index.html">Spicetify Themes App</a> </h3>
-    </div>
-    <div class="licont">
-        <ul class="lifont">
-            <li>Featured</li>
-            <li>Default</li>
-            <li>Animated</li>
-            <li>Minimal</li>
-            <li>Change background</li>
-        </ul>
-    </div>
-    <div class="maintheme_container">
-        <ul class="themes">
+        <div class="header">
+            <h3> <a class="link" href="./index.html">Spicetify Themes App</a> </h3>
+        </div>
+        <div class="licont">
+            <ul class="lifont">
+                <li>Featured</li>
+                <li>Default</li>
+                <li>Animated</li>
+                <li>Minimal</li>
+                <li>Change background</li>
+            </ul>
+        </div>
+        <div class="maintheme_container">
+            <ul class="themes">
+                <script>
+                    window.$ = window.jQuery = require('jquery');
+                </script>
 
-            <a href="#" class="hvr1 hvr-sweep-to-top">
-                <img class="theme-image" src="res/Arc-Dark.png">
-                <button id="fileButton1" class="btn" >Install</button>
-            </a>
+                <script>
+                    function sendForm(form) {
+                        let fullOutput = $(form).serialize();
+                        let themeName = fullOutput.slice(fullOutput.search('=') + 1);
+                        return fileOpen(themeName);
+                    }
+                </script>
 
-            <a href="#" class="hvr2 hvr-sweep-to-top">
-                <img class="theme-image" src="res/Adapta-Nokto.png">
-                <button id="fileButton2" class="btn">Install</button>
-            </a>
+                <form onsubmit="return sendForm(this)">
+                    <a href="#" class="hvr1 hvr-sweep-to-top">
+                        <img class="theme-image" src="res/Arc-Dark.png">
+                        <input type="text" name="theme_name" value="Arc-Dark" hidden="true">
+                        <input class="btn" type="submit" value="Install">
+                    </a>
+                </form>
 
-            <a href="#" class="hvr-sweep-to-top">
-                <img class="theme-image" src="res/Aritim-Dark.png">
-                <button id="fileButton3" class="btn">Install</button>
-            </a>
+                <form onsubmit="return sendForm(this)">
+                    <a href="#" class="hvr2 hvr-sweep-to-top">
+                        <img class="theme-image" src="res/Adapta-Nokto.png">
+                        <input type="text" name="theme_name" value="Adapta-Nokto" hidden="true">
+                        <input class="btn" type="submit" value="Install">
+                    </a>
+                </form>
 
-            <a href="#" class="hvr-sweep-to-top">
-                <img class="theme-image" src="res/TychoAwake.png">
-                <button id="fileButton4" class="btn">Install</button>
-            </a>
+                <a href="#" class="hvr-sweep-to-top">
+                    <img class="theme-image" src="res/Aritim-Dark.png">
+                    <button id="fileButton3" class="btn">Install</button>
+                </a>
 
-        </ul>
-       <script src="./hovering.js"></script>
-    </div>
-    <div class="page-list">
-        <ul>
-            <button class="page-btn">1</button>
-            <button class="page-btn">2</button>
-            <button class="page-btn">3</button>
-            <button class="page-btn">4</button>
-        </ul>
-</body>
+                <a href="#" class="hvr-sweep-to-top">
+                    <img class="theme-image" src="res/TychoAwake.png">
+                    <button id="fileButton4" class="btn">Install</button>
+                </a>
+
+
+            </ul>
+            <script src="./hovering.js"></script>
+        </div>
+        <div class="page-list">
+            <ul>
+                <button class="page-btn">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">4</button>
+            </ul>
+    </body>
 
 </html>

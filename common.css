@@ -160,6 +160,1077 @@ a.link {
     text-align: center;
 }
 
+.hvr5 {
+    /* content: "$0"; */
+}
+
+.hvr5:before {}
+
+.hvr5:hover,
+.hvr5:focus,
+.hvr5:active {
+    color: white;
+}
+
+.hvr5:hover:before,
+.hvr5:focus:before,
+.hvr5:active:before {
+    content: "Arc-Green";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr6 {
+    /* content: "$0"; */
+}
+
+.hvr6:before {}
+
+.hvr6:hover,
+.hvr6:focus,
+.hvr6:active {
+    color: white;
+}
+
+.hvr6:hover:before,
+.hvr6:focus:before,
+.hvr6:active:before {
+    content: "BIB-Green";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr7 {
+    /* content: "$0"; */
+}
+
+.hvr7:before {}
+
+.hvr7:hover,
+.hvr7:focus,
+.hvr7:active {
+    color: white;
+}
+
+.hvr7:hover:before,
+.hvr7:focus:before,
+.hvr7:active:before {
+    content: "Bittersweet";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr8 {
+    /* content: "$0"; */
+}
+
+.hvr8:before {}
+
+.hvr8:hover,
+.hvr8:focus,
+.hvr8:active {
+    color: white;
+}
+
+.hvr8:hover:before,
+.hvr8:focus:before,
+.hvr8:active:before {
+    content: "Black";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr9 {
+    /* content: "$0"; */
+}
+
+.hvr9:before {}
+
+.hvr9:hover,
+.hvr9:focus,
+.hvr9:active {
+    color: white;
+}
+
+.hvr9:hover:before,
+.hvr9:focus:before,
+.hvr9:active:before {
+    content: "Bloody";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr10 {
+    /* content: "$0"; */
+}
+
+.hvr10:before {}
+
+.hvr10:hover,
+.hvr10:focus,
+.hvr10:active {
+    color: white;
+}
+
+.hvr10:hover:before,
+.hvr10:focus:before,
+.hvr10:active:before {
+    content: "BreezyLight";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr11 {
+    /* content: "$0"; */
+}
+
+.hvr11:before {}
+
+.hvr11:hover,
+.hvr11:focus,
+.hvr11:active {
+    color: white;
+}
+
+.hvr11:hover:before,
+.hvr11:focus:before,
+.hvr11:active:before {
+    content: "BurntSienna";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr12 {
+    /* content: "$0"; */
+}
+
+.hvr12:before {}
+
+.hvr12:hover,
+.hvr12:focus,
+.hvr12:active {
+    color: white;
+}
+
+.hvr12:hover:before,
+.hvr12:focus:before,
+.hvr12:active:before {
+    content: "Challenger-Deep";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr13 {
+    /* content: "$0"; */
+}
+
+.hvr13:before {}
+
+.hvr13:hover,
+.hvr13:focus,
+.hvr13:active {
+    color: white;
+}
+
+.hvr13:hover:before,
+.hvr13:focus:before,
+.hvr13:active:before {
+    content: "CherryBlossom";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr14 {
+    /* content: "$0"; */
+}
+
+.hvr14:before {}
+
+.hvr14:hover,
+.hvr14:focus,
+.hvr14:active {
+    color: white;
+}
+
+.hvr14:hover:before,
+.hvr14:focus:before,
+.hvr14:active:before {
+    content: "DanDrumStone";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr15 {
+    /* content: "$0"; */
+}
+
+.hvr15:before {}
+
+.hvr15:hover,
+.hvr15:focus,
+.hvr15:active {
+    color: white;
+}
+
+.hvr15:hover:before,
+.hvr15:focus:before,
+.hvr15:active:before {
+    content: "DanDrumStoneNew";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr16 {
+    /* content: "$0"; */
+}
+
+.hvr16:before {}
+
+.hvr16:hover,
+.hvr16:focus,
+.hvr16:active {
+    color: white;
+}
+
+.hvr16:hover:before,
+.hvr16:focus:before,
+.hvr16:active:before {
+    content: "Dark";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr17 {
+    /* content: "$0"; */
+}
+
+.hvr17:before {}
+
+.hvr17:hover,
+.hvr17:focus,
+.hvr17:active {
+    color: white;
+}
+
+.hvr17:hover:before,
+.hvr17:focus:before,
+.hvr17:active:before {
+    content: "DeepCoral";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr18 {
+    /* content: "$0"; */
+}
+
+.hvr18:before {}
+
+.hvr18:hover,
+.hvr18:focus,
+.hvr18:active {
+    color: white;
+}
+
+.hvr18:hover:before,
+.hvr18:focus:before,
+.hvr18:active:before {
+    content: "Dobby";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr19 {
+    /* content: "$0"; */
+}
+
+.hvr19:before {}
+
+.hvr19:hover,
+.hvr19:focus,
+.hvr19:active {
+    color: white;
+}
+
+.hvr19:hover:before,
+.hvr19:focus:before,
+.hvr19:active:before {
+    content: "Elementary";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr20 {
+    /* content: "$0"; */
+}
+
+.hvr20:before {}
+
+.hvr20:hover,
+.hvr20:focus,
+.hvr20:active {
+    color: white;
+}
+
+.hvr20:hover:before,
+.hvr20:focus:before,
+.hvr20:active:before {
+    content: "Flatten";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr21 {
+    /* content: "$0"; */
+}
+
+.hvr21:before {}
+
+.hvr21:hover,
+.hvr21:focus,
+.hvr21:active {
+    color: white;
+}
+
+.hvr21:hover:before,
+.hvr21:focus:before,
+.hvr21:active:before {
+    content: "Frostify";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr22 {
+    /* content: "$0"; */
+}
+
+.hvr22:before {}
+
+.hvr22:hover,
+.hvr22:focus,
+.hvr22:active {
+    color: white;
+}
+
+.hvr22:hover:before,
+.hvr22:focus:before,
+.hvr22:active:before {
+    content: "Gradianto";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr23 {
+    /* content: "$0"; */
+}
+
+.hvr23:before {}
+
+.hvr23:hover,
+.hvr23:focus,
+.hvr23:active {
+    color: white;
+}
+
+.hvr23:hover:before,
+.hvr23:focus:before,
+.hvr23:active:before {
+    content: "GrooveBox-Gold";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr24 {
+    /* content: "$0"; */
+}
+
+.hvr24:before {}
+
+.hvr24:hover,
+.hvr24:focus,
+.hvr24:active {
+    color: white;
+}
+
+.hvr24:hover:before,
+.hvr24:focus:before,
+.hvr24:active:before {
+    content: "Honne";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr25 {
+    /* content: "$0"; */
+}
+
+.hvr25:before {}
+
+.hvr25:hover,
+.hvr25:focus,
+.hvr25:active {
+    color: white;
+}
+
+.hvr25:hover:before,
+.hvr25:focus:before,
+.hvr25:active:before {
+    content: "JarvisBot";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr26 {
+    /* content: "$0"; */
+}
+
+.hvr26:before {}
+
+.hvr26:hover,
+.hvr26:focus,
+.hvr26:active {
+    color: white;
+}
+
+.hvr26:hover:before,
+.hvr26:focus:before,
+.hvr26:active:before {
+    content: "Kaapi";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr27 {
+    /* content: "$0"; */
+}
+
+.hvr27:before {}
+
+.hvr27:hover,
+.hvr27:focus,
+.hvr27:active {
+    color: white;
+}
+
+.hvr27:hover:before,
+.hvr27:focus:before,
+.hvr27:active:before {
+    content: "Lovelace";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr28 {
+    /* content: "$0"; */
+}
+
+.hvr28:before {}
+
+.hvr28:hover,
+.hvr28:focus,
+.hvr28:active {
+    color: white;
+}
+
+.hvr28:hover:before,
+.hvr28:focus:before,
+.hvr28:active:before {
+    content: "Material-Ocean";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr29 {
+    /* content: "$0"; */
+}
+
+.hvr29:before {}
+
+.hvr29:hover,
+.hvr29:focus,
+.hvr29:active {
+    color: white;
+}
+
+.hvr29:hover:before,
+.hvr29:focus:before,
+.hvr29:active:before {
+    content: "Material-Light";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr30 {
+    /* content: "$0"; */
+}
+
+.hvr30:before {}
+
+.hvr30:hover,
+.hvr30:focus,
+.hvr30:active {
+    color: white;
+}
+
+.hvr30:hover:before,
+.hvr30:focus:before,
+.hvr30:active:before {
+    content: "MoonChild";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr31 {
+    /* content: "$0"; */
+}
+
+.hvr31:before {}
+
+.hvr31:hover,
+.hvr31:focus,
+.hvr31:active {
+    color: white;
+}
+
+.hvr31:hover:before,
+.hvr31:focus:before,
+.hvr31:active:before {
+    content: "Night-Owl";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr32 {
+    /* content: "$0"; */
+}
+
+.hvr32:before {}
+
+.hvr32:hover,
+.hvr32:focus,
+.hvr32:active {
+    color: white;
+}
+
+.hvr32:hover:before,
+.hvr32:focus:before,
+.hvr32:active:before {
+    content: "Night";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr33 {
+    /* content: "$0"; */
+}
+
+.hvr33:before {}
+
+.hvr33:hover,
+.hvr33:focus,
+.hvr33:active {
+    color: white;
+}
+
+.hvr33:hover:before,
+.hvr33:focus:before,
+.hvr33:active:before {
+    content: "NightMoon";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr34 {
+    /* content: "$0"; */
+}
+
+.hvr34:before {}
+
+.hvr34:hover,
+.hvr34:focus,
+.hvr34:active {
+    color: white;
+}
+
+.hvr34:hover:before,
+.hvr34:focus:before,
+.hvr34:active:before {
+    content: "Nord";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr35 {
+    /* content: "$0"; */
+}
+
+.hvr35:before {}
+
+.hvr35:hover,
+.hvr35:focus,
+.hvr35:active {
+    color: white;
+}
+
+.hvr35:hover:before,
+.hvr35:focus:before,
+.hvr35:active:before {
+    content: "NoSleep";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr36 {
+    /* content: "$0"; */
+}
+
+.hvr36:before {}
+
+.hvr36:hover,
+.hvr36:focus,
+.hvr36:active {
+    color: white;
+}
+
+.hvr36:hover:before,
+.hvr36:focus:before,
+.hvr36:active:before {
+    content: "OneDarkish";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr37 {
+    /* content: "$0"; */
+}
+
+.hvr37:before {}
+
+.hvr37:hover,
+.hvr37:focus,
+.hvr37:active {
+    color: white;
+}
+
+.hvr37:hover:before,
+.hvr37:focus:before,
+.hvr37:active:before {
+    content: "Otto";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr38 {
+    /* content: "$0"; */
+}
+
+.hvr38:before {}
+
+.hvr38:hover,
+.hvr38:focus,
+.hvr38:active {
+    color: white;
+}
+
+.hvr38:hover:before,
+.hvr38:focus:before,
+.hvr38:active:before {
+    content: "OutrunDark";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr39 {
+    /* content: "$0"; */
+}
+
+.hvr39:before {}
+
+.hvr39:hover,
+.hvr39:focus,
+.hvr39:active {
+    color: white;
+}
+
+.hvr39:hover:before,
+.hvr39:focus:before,
+.hvr39:active:before {
+    content: "Prosphoria";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr40 {
+    /* content: "$0"; */
+}
+
+.hvr40:before {}
+
+.hvr40:hover,
+.hvr40:focus,
+.hvr40:active {
+    color: white;
+}
+
+.hvr40:hover:before,
+.hvr40:focus:before,
+.hvr40:active:before {
+    content: "Pop-Dark";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr41 {
+    /* content: "$0"; */
+}
+
+.hvr41:before {}
+
+.hvr41:hover,
+.hvr41:focus,
+.hvr41:active {
+    color: white;
+}
+
+.hvr41:hover:before,
+.hvr41:focus:before,
+.hvr41:active:before {
+    content: "ShadowCustom";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr42 {
+    /* content: "$0"; */
+}
+
+.hvr42:before {}
+
+.hvr42:hover,
+.hvr42:focus,
+.hvr42:active {
+    color: white;
+}
+
+.hvr42:hover:before,
+.hvr42:focus:before,
+.hvr42:active:before {
+    content: "SolarizedDark";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr43 {
+    /* content: "$0"; */
+}
+
+.hvr43:before {}
+
+.hvr43:hover,
+.hvr43:focus,
+.hvr43:active {
+    color: white;
+}
+
+.hvr43:hover:before,
+.hvr43:focus:before,
+.hvr43:active:before {
+    content: "Sweet";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr44 {
+    /* content: "$0"; */
+}
+
+.hvr44:before {}
+
+.hvr44:hover,
+.hvr44:focus,
+.hvr44:active {
+    color: white;
+}
+
+.hvr44:hover:before,
+.hvr44:focus:before,
+.hvr44:active:before {
+    content: "TrenkyGoldenrod";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr45 {
+    /* content: "$0"; */
+}
+
+.hvr45:before {}
+
+.hvr45:hover,
+.hvr45:focus,
+.hvr45:active {
+    color: white;
+}
+
+.hvr45:hover:before,
+.hvr45:focus:before,
+.hvr45:active:before {
+    content: "Twasi";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr46 {
+    /* content: "$0"; */
+}
+
+.hvr46:before {}
+
+.hvr46:hover,
+.hvr46:focus,
+.hvr46:active {
+    color: white;
+}
+
+.hvr46:hover:before,
+.hvr46:focus:before,
+.hvr46:active:before {
+    content: "Vaporwave";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr47 {
+    /* content: "$0"; */
+}
+
+.hvr47:before {}
+
+.hvr47:hover,
+.hvr47:focus,
+.hvr47:active {
+    color: white;
+}
+
+.hvr47:hover:before,
+.hvr47:focus:before,
+.hvr47:active:before {
+    content: "VPFut";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr48 {
+    /* content: "$0"; */
+}
+
+.hvr48:before {}
+
+.hvr48:hover,
+.hvr48:focus,
+.hvr48:active {
+    color: white;
+}
+
+.hvr48:hover:before,
+.hvr48:focus:before,
+.hvr48:active:before {
+    content: "WintergatanBlueprint";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr49 {
+    /* content: "$0"; */
+}
+
+.hvr49:before {}
+
+.hvr49:hover,
+.hvr49:focus,
+.hvr49:active {
+    color: white;
+}
+
+.hvr49:hover:before,
+.hvr49:focus:before,
+.hvr49:active:before {
+    content: "YoutubeDark";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr50 {
+    /* content: "$0"; */
+}
+
+.hvr50:before {}
+
+.hvr50:hover,
+.hvr50:focus,
+.hvr50:active {
+    color: white;
+}
+
+.hvr50:hover:before,
+.hvr50:focus:before,
+.hvr50:active:before {
+    content: "Dribbblish";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr51 {
+    /* content: "$0"; */
+}
+
+.hvr51:before {}
+
+.hvr51:hover,
+.hvr51:focus,
+.hvr51:active {
+    color: white;
+}
+
+.hvr51:hover:before,
+.hvr51:focus:before,
+.hvr51:active:before {
+    content: "DribbblishDynamic";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr52 {
+    /* content: "$0"; */
+}
+
+.hvr52:before {}
+
+.hvr52:hover,
+.hvr52:focus,
+.hvr52:active {
+    color: white;
+}
+
+.hvr52:hover:before,
+.hvr52:focus:before,
+.hvr52:active:before {
+    content: "Blueballs";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr53 {
+    /* content: "$0"; */
+}
+
+.hvr53:before {}
+
+.hvr53:hover,
+.hvr53:focus,
+.hvr53:active {
+    color: white;
+}
+
+.hvr53:hover:before,
+.hvr53:focus:before,
+.hvr53:active:before {
+    content: "TychoAwake";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr54 {
+    /* content: "$0"; */
+}
+
+.hvr54:before {}
+
+.hvr54:hover,
+.hvr54:focus,
+.hvr54:active {
+    color: white;
+}
+
+.hvr54:hover:before,
+.hvr54:focus:before,
+.hvr54:active:before {
+    content: "TychoAwake";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr55 {
+    /* content: "$0"; */
+}
+
+.hvr55:before {}
+
+.hvr55:hover,
+.hvr55:focus,
+.hvr55:active {
+    color: white;
+}
+
+.hvr55:hover:before,
+.hvr55:focus:before,
+.hvr55:active:before {
+    content: "TychoAwake";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
 .btn {
     font-family: "Noto Sans JP", sans-serif;
     content: "instal";

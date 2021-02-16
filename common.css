@@ -117,6 +117,48 @@ a.link {
     text-align: center;
 }
 
+.hvr3 {
+    /* content: "$0"; */
+}
+
+.hvr3:before {}
+
+.hvr3:hover,
+.hvr3:focus,
+.hvr3:active {
+    color: white;
+}
+
+.hvr3:hover:before,
+.hvr3:focus:before,
+.hvr3:active:before {
+    content: "Aritim-Dark";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
+.hvr4 {
+    /* content: "$0"; */
+}
+
+.hvr4:before {}
+
+.hvr4:hover,
+.hvr4:focus,
+.hvr4:active {
+    color: white;
+}
+
+.hvr4:hover:before,
+.hvr4:focus:before,
+.hvr4:active:before {
+    content: "TychoAwake";
+    color: rgb(187, 187, 187);
+    align-content: center;
+    text-align: center;
+}
+
 .btn {
     font-family: "Noto Sans JP", sans-serif;
     content: "instal";

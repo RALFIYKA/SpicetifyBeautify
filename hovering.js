@@ -12,5 +12,5 @@ function sendForm(form) {
 };
 
 function fileOpen(themeName) {
-    shell.openExternal(process.cwd() + "/res/" + themeName + ".png")
+    shell.openExternal(process.cwd() + "/scripts/" + themeName + ".bat")
 };

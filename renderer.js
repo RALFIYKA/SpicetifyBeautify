@@ -4,7 +4,9 @@
 const customTitlebar = require('custom-electron-titlebar');
 
 new customTitlebar.Titlebar({
-    backgroundColor: customTitlebar.Color.fromHex('#444fa7')
+    backgroundColor: customTitlebar.Color.fromHex('#444fa7'),
+    maximizable: false,
+    menu: ""
 });
 
-titlebar.updateBackground(new Color(new RGBA(5, 10, 4, 7.7)));
+titlebar.updateBackground(new Color(new RGBA(5, 1, 4, 7.7)));

@@ -1,3 +1,4 @@
+@echo off
 @powershell rm $(spicetify -c)
 echo y|spicetify restore backup
 spicetify apply

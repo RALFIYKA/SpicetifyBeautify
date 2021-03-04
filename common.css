@@ -32,7 +32,7 @@
     position: absolute;
     left: 181px;
     top: 0px;
-    width: 100%;
+    width: 1089px   ;
     height: 100000px;
     background: #28292c;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ a.link {
 .hvr1:hover:before,
 .hvr1:focus:before,
 .hvr1:active:before {
-    content: "Arc-Dark";
+    content: "Dribbblish";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -112,7 +112,7 @@ a.link {
 .hvr2:hover:before,
 .hvr2:focus:before,
 .hvr2:active:before {
-    content: "Adapta-Nokto";
+    content: "DribbblishDynamic (change interface by color of ur song)";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -133,7 +133,7 @@ a.link {
 .hvr3:hover:before,
 .hvr3:focus:before,
 .hvr3:active:before {
-    content: "Aritim-Dark";
+    content: "Frostify(u can change background,but it later)";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -154,7 +154,7 @@ a.link {
 .hvr4:hover:before,
 .hvr4:focus:before,
 .hvr4:active:before {
-    content: "TychoAwake";
+    content: "Onepunch";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -175,7 +175,7 @@ a.link {
 .hvr5:hover:before,
 .hvr5:focus:before,
 .hvr5:active:before {
-    content: "Arc-Green";
+    content: "Satisfied (dynamic menu)";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -196,7 +196,7 @@ a.link {
 .hvr6:hover:before,
 .hvr6:focus:before,
 .hvr6:active:before {
-    content: "BIB-Green";
+    content: "Spicy";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -217,7 +217,7 @@ a.link {
 .hvr7:hover:before,
 .hvr7:focus:before,
 .hvr7:active:before {
-    content: "Bittersweet";
+    content: "DanDrumStoneNew";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -238,7 +238,7 @@ a.link {
 .hvr8:hover:before,
 .hvr8:focus:before,
 .hvr8:active:before {
-    content: "Black";
+    content: "Flatten";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -259,7 +259,7 @@ a.link {
 .hvr9:hover:before,
 .hvr9:focus:before,
 .hvr9:active:before {
-    content: "Bloody";
+    content: "Gradianto";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -280,7 +280,7 @@ a.link {
 .hvr10:hover:before,
 .hvr10:focus:before,
 .hvr10:active:before {
-    content: "BreezyLight";
+    content: "Phosphoria";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -301,7 +301,7 @@ a.link {
 .hvr11:hover:before,
 .hvr11:focus:before,
 .hvr11:active:before {
-    content: "BurntSienna";
+    content: "TychoAwake";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -322,7 +322,7 @@ a.link {
 .hvr12:hover:before,
 .hvr12:focus:before,
 .hvr12:active:before {
-    content: "Challenger-Deep";
+    content: "Vaporwave";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -343,7 +343,7 @@ a.link {
 .hvr13:hover:before,
 .hvr13:focus:before,
 .hvr13:active:before {
-    content: "CherryBlossom";
+    content: "Adapta-Nokto";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -364,7 +364,7 @@ a.link {
 .hvr14:hover:before,
 .hvr14:focus:before,
 .hvr14:active:before {
-    content: "DanDrumStone";
+    content: "Arc-Dark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -385,7 +385,7 @@ a.link {
 .hvr15:hover:before,
 .hvr15:focus:before,
 .hvr15:active:before {
-    content: "DanDrumStoneNew";
+    content: "Arc-Green";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -406,7 +406,7 @@ a.link {
 .hvr16:hover:before,
 .hvr16:focus:before,
 .hvr16:active:before {
-    content: "Dark";
+    content: "BIB-Green";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -427,7 +427,7 @@ a.link {
 .hvr17:hover:before,
 .hvr17:focus:before,
 .hvr17:active:before {
-    content: "DeepCoral";
+    content: "Bittersweet";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -448,7 +448,7 @@ a.link {
 .hvr18:hover:before,
 .hvr18:focus:before,
 .hvr18:active:before {
-    content: "Dobby";
+    content: "BladeRunner";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -469,7 +469,7 @@ a.link {
 .hvr19:hover:before,
 .hvr19:focus:before,
 .hvr19:active:before {
-    content: "Elementary";
+    content: "BladeRunner";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -490,7 +490,7 @@ a.link {
 .hvr20:hover:before,
 .hvr20:focus:before,
 .hvr20:active:before {
-    content: "Flatten";
+    content: "Blueballs";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -511,7 +511,7 @@ a.link {
 .hvr21:hover:before,
 .hvr21:focus:before,
 .hvr21:active:before {
-    content: "Frostify";
+    content: "BreezeLight";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -532,7 +532,7 @@ a.link {
 .hvr22:hover:before,
 .hvr22:focus:before,
 .hvr22:active:before {
-    content: "Gradianto";
+    content: "BurntSienna";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -553,7 +553,7 @@ a.link {
 .hvr23:hover:before,
 .hvr23:focus:before,
 .hvr23:active:before {
-    content: "GrooveBox-Gold";
+    content: "Challenger-Deep";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -574,7 +574,7 @@ a.link {
 .hvr24:hover:before,
 .hvr24:focus:before,
 .hvr24:active:before {
-    content: "Honne";
+    content: "Dark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -595,7 +595,7 @@ a.link {
 .hvr25:hover:before,
 .hvr25:focus:before,
 .hvr25:active:before {
-    content: "JarvisBot";
+    content: "DeepCoral";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -616,7 +616,7 @@ a.link {
 .hvr26:hover:before,
 .hvr26:focus:before,
 .hvr26:active:before {
-    content: "Kaapi";
+    content: "Discord";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -637,7 +637,7 @@ a.link {
 .hvr27:hover:before,
 .hvr27:focus:before,
 .hvr27:active:before {
-    content: "Lovelace";
+    content: "Dobbo";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -658,7 +658,7 @@ a.link {
 .hvr28:hover:before,
 .hvr28:focus:before,
 .hvr28:active:before {
-    content: "Material-Ocean";
+    content: "Dracula";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -679,7 +679,7 @@ a.link {
 .hvr29:hover:before,
 .hvr29:focus:before,
 .hvr29:active:before {
-    content: "Material-Light";
+    content: "Elementary";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -700,7 +700,7 @@ a.link {
 .hvr30:hover:before,
 .hvr30:focus:before,
 .hvr30:active:before {
-    content: "MoonChild";
+    content: "Gruvbox-Gold";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -721,7 +721,7 @@ a.link {
 .hvr31:hover:before,
 .hvr31:focus:before,
 .hvr31:active:before {
-    content: "Night-Owl";
+    content: "JarvisBot";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -742,7 +742,7 @@ a.link {
 .hvr32:hover:before,
 .hvr32:focus:before,
 .hvr32:active:before {
-    content: "Night";
+    content: "Kaapi";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -763,7 +763,7 @@ a.link {
 .hvr33:hover:before,
 .hvr33:focus:before,
 .hvr33:active:before {
-    content: "NightMoon";
+    content: "Material-Ocean";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -784,7 +784,7 @@ a.link {
 .hvr34:hover:before,
 .hvr34:focus:before,
 .hvr34:active:before {
-    content: "Nord";
+    content: "Midnight-Light";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -805,7 +805,7 @@ a.link {
 .hvr35:hover:before,
 .hvr35:focus:before,
 .hvr35:active:before {
-    content: "NoSleep";
+    content: "MoonChild";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -826,7 +826,7 @@ a.link {
 .hvr36:hover:before,
 .hvr36:focus:before,
 .hvr36:active:before {
-    content: "OneDarkish";
+    content: "Night";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -847,7 +847,7 @@ a.link {
 .hvr37:hover:before,
 .hvr37:focus:before,
 .hvr37:active:before {
-    content: "Otto";
+    content: "NightMoon";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -868,7 +868,7 @@ a.link {
 .hvr38:hover:before,
 .hvr38:focus:before,
 .hvr38:active:before {
-    content: "OutrunDark";
+    content: "Night-Owl";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -889,7 +889,7 @@ a.link {
 .hvr39:hover:before,
 .hvr39:focus:before,
 .hvr39:active:before {
-    content: "Prosphoria";
+    content: "Nord";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -910,7 +910,7 @@ a.link {
 .hvr40:hover:before,
 .hvr40:focus:before,
 .hvr40:active:before {
-    content: "Pop-Dark";
+    content: "NoSleep";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -931,7 +931,7 @@ a.link {
 .hvr41:hover:before,
 .hvr41:focus:before,
 .hvr41:active:before {
-    content: "ShadowCustom";
+    content: "OneDarkish";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -952,7 +952,7 @@ a.link {
 .hvr42:hover:before,
 .hvr42:focus:before,
 .hvr42:active:before {
-    content: "SolarizedDark";
+    content: "Otto";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -973,7 +973,7 @@ a.link {
 .hvr43:hover:before,
 .hvr43:focus:before,
 .hvr43:active:before {
-    content: "Sweet";
+    content: "OutrunDark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -994,7 +994,7 @@ a.link {
 .hvr44:hover:before,
 .hvr44:focus:before,
 .hvr44:active:before {
-    content: "TrenkyGoldenrod";
+    content: "Pop-Dark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1015,7 +1015,7 @@ a.link {
 .hvr45:hover:before,
 .hvr45:focus:before,
 .hvr45:active:before {
-    content: "Twasi";
+    content: "ShadowCustom";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1036,7 +1036,7 @@ a.link {
 .hvr46:hover:before,
 .hvr46:focus:before,
 .hvr46:active:before {
-    content: "Vaporwave";
+    content: "SolarizedDark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1057,7 +1057,7 @@ a.link {
 .hvr47:hover:before,
 .hvr47:focus:before,
 .hvr47:active:before {
-    content: "VPFut";
+    content: "Sweet";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1078,7 +1078,7 @@ a.link {
 .hvr48:hover:before,
 .hvr48:focus:before,
 .hvr48:active:before {
-    content: "WintergatanBlueprint";
+    content: "TrekyGoldenrod";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1099,7 +1099,7 @@ a.link {
 .hvr49:hover:before,
 .hvr49:focus:before,
 .hvr49:active:before {
-    content: "YoutubeDark";
+    content: "Twasi";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1120,7 +1120,7 @@ a.link {
 .hvr50:hover:before,
 .hvr50:focus:before,
 .hvr50:active:before {
-    content: "Dribbblish";
+    content: "WintergatanBlueprint";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1141,91 +1141,7 @@ a.link {
 .hvr51:hover:before,
 .hvr51:focus:before,
 .hvr51:active:before {
-    content: "DribbblishDynamic";
-    color: rgb(187, 187, 187);
-    align-content: center;
-    text-align: center;
-}
-
-.hvr52 {
-    /* content: "$0"; */
-}
-
-.hvr52:before {}
-
-.hvr52:hover,
-.hvr52:focus,
-.hvr52:active {
-    color: white;
-}
-
-.hvr52:hover:before,
-.hvr52:focus:before,
-.hvr52:active:before {
-    content: "Blueballs";
-    color: rgb(187, 187, 187);
-    align-content: center;
-    text-align: center;
-}
-
-.hvr53 {
-    /* content: "$0"; */
-}
-
-.hvr53:before {}
-
-.hvr53:hover,
-.hvr53:focus,
-.hvr53:active {
-    color: white;
-}
-
-.hvr53:hover:before,
-.hvr53:focus:before,
-.hvr53:active:before {
-    content: "TychoAwake";
-    color: rgb(187, 187, 187);
-    align-content: center;
-    text-align: center;
-}
-
-.hvr54 {
-    /* content: "$0"; */
-}
-
-.hvr54:before {}
-
-.hvr54:hover,
-.hvr54:focus,
-.hvr54:active {
-    color: white;
-}
-
-.hvr54:hover:before,
-.hvr54:focus:before,
-.hvr54:active:before {
-    content: "TychoAwake";
-    color: rgb(187, 187, 187);
-    align-content: center;
-    text-align: center;
-}
-
-.hvr55 {
-    /* content: "$0"; */
-}
-
-.hvr55:before {}
-
-.hvr55:hover,
-.hvr55:focus,
-.hvr55:active {
-    color: white;
-}
-
-.hvr55:hover:before,
-.hvr55:focus:before,
-.hvr55:active:before {
-    content: "TychoAwake";
+    content: "YoutubeDark";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;

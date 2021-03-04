@@ -22,6 +22,7 @@
     "electron": "^10.3.2"
   },
   "dependencies": {
+    "custom-electron-titlebar": "^3.2.6",
     "jquery": "^3.5.1"
   }
 }

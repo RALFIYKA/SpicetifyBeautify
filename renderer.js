@@ -9,4 +9,4 @@ new customTitlebar.Titlebar({
     menu: ""
 });
 
-titlebar.updateBackground(new Color(new RGBA(5, 10, 4, 7.7)));
+titlebar.updateBackground(new Color(new RGBA(5, 1, 4, 7.7)));

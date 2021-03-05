@@ -1,20 +1,20 @@
-@powershell rm $(spicetify -c)
-echo y|spicetify restore backup
-spicetify apply
-spicetify config current_theme Adapta-Nokto
-spicetify apply
-
-  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ       â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ       â–ˆâ–ˆ     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ 
-â–ˆâ–ˆ     â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ    â–ˆâ–ˆ          â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ   â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ
-â–ˆâ–ˆâ–ˆ        â–ˆâ–ˆ   â–ˆâ–ˆ   â–ˆâ–ˆ          â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ  â–ˆâ–ˆ   â–ˆâ–ˆ
-  â–ˆâ–ˆâ–ˆ      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–ˆ          â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
-   â–ˆâ–ˆâ–ˆ     â–ˆâ–ˆ        â–ˆâ–ˆ          â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆ       â–ˆâ–ˆ
-      â–ˆâ–ˆ   â–ˆâ–ˆ         â–ˆâ–ˆ         â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆ       â–ˆâ–ˆ
- â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ     â–ˆâ–ˆ           â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆ    â–ˆâ–ˆ  â–ˆâ–ˆ       â–ˆâ–ˆ
-
-
-   mmmm  mmmmm    mmm    mm   mmmmm  mmmmm
- #"   " #   "# m"   "   ##   #   "# #   "#
- "#mmm  #mmm#" #       #  #  #mmm#" #mmm#"
-     "# #      #       #mm#  #      #
- "mmm#" #       "mmm" #    # #      #
+@echo OFF
+color 0B 
+mode con:cols=100 lines=15
+echo.
+echo.
+echo.
+@echo   ÛÛÛÛÛ    ÛÛÛÛÛÛ       ÛÛÛÛÛ       ÛÛ     ÛÛÛÛÛÛ   ÛÛÛÛÛÛ 
+@echo  ÛÛ    ÛÛ  ÛÛ   ÛÛ    ÛÛ          ÛÛ  ÛÛ   ÛÛ   ÛÛ  ÛÛ   ÛÛ
+@echo  ÛÛÛ       ÛÛ   ÛÛ   ÛÛ          ÛÛ    ÛÛ  ÛÛ   ÛÛ  ÛÛ   ÛÛ
+@echo   ÛÛÛ      ÛÛÛÛÛ     ÛÛ          ÛÛÛÛÛÛÛÛ  ÛÛÛÛÛ    ÛÛÛÛÛ
+@echo    ÛÛÛ     ÛÛ        ÛÛ          ÛÛ    ÛÛ  ÛÛ       ÛÛ
+@echo       ÛÛ   ÛÛ         ÛÛ         ÛÛ    ÛÛ  ÛÛ       ÛÛ
+@echo  ÛÛÛÛÛ     ÛÛ           ÛÛÛÛÛ    ÛÛ    ÛÛ  ÛÛ       ÛÛ
+@echo.
+@echo off 
+@powershell rm $(spicetify -c) >nul
+echo y|spicetify restore backup >nul
+spicetify apply >nul
+spicetify config current_theme Adapta-Nokto >nul
+spicetify apply >nul

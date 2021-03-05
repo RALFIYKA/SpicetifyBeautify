@@ -1,5 +1,5 @@
-@powershell rm $(spicetify -c)
-echo y|spicetify restore backup
-spicetify apply
-spicetify config current_theme Dobby
-spicetify apply
+@powershell rm $(spicetify -c) >nul
+echo y|spicetify restore backup >nul
+spicetify apply >nul
+spicetify config current_theme Dobby >nul
+spicetify apply >nul

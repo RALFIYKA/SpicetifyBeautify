@@ -59,11 +59,13 @@
     position: absolute;
     left: 181px;
     top: 0px;
-    width: 1089px   ;
+    width: 1089px;
     height: 8160px;
     background: #28292c;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    
+    
 }
 
 .themes {
@@ -475,7 +477,7 @@ a.link {
 .hvr18:hover:before,
 .hvr18:focus:before,
 .hvr18:active:before {
-    content: "BladeRunner";
+    content: "Black";
     color: rgb(187, 187, 187);
     align-content: center;
     text-align: center;
@@ -1195,6 +1197,7 @@ a.link {
     content: "instal";
     background-color: rgba(0, 139, 132, 0.692);
     color: white;
+    cursor: pointer;
 }
 
 .hvr-sweep-to-top {
@@ -1239,6 +1242,7 @@ a.link {
 .hvr-sweep-to-top:focus,
 .hvr-sweep-to-top:active {
     color: white;
+    cursor: default;
 }
 
 .hvr-sweep-to-top:hover:before,
@@ -1247,6 +1251,7 @@ a.link {
 .hide:focus .hide-item,
 .hvr-sweep-to-top:active:before {
     padding: 0px;
+    cursor: crosshair;
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }

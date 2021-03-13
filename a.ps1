@@ -1,1 +1,1 @@
-cp -Path "$(Get-Location)\themes\Themes\*" -Destination "$(spicetify -c | Split-Path)\Themes\" -Recurse
+cp -Path "$(Get-Location)\themes\*" -Destination "$(spicetify -c | Split-Path)\Themes\" -Recurse

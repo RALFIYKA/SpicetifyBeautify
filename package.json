@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "custom-electron-titlebar": "^3.2.6",
+    "electron-packager": "^15.2.0",
     "jquery": "^3.5.1"
   }
 }

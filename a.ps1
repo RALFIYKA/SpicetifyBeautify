@@ -1,1 +1,1 @@
-cp -Path "$(Get-Location)\themes\*" -Destination "$(spicetify -c | Split-Path)\Themes\" -Recurse
+Expand-Archive -Force "$(Get-Location)\themes.zip" -DestinationPath "$(spicetify -c | Split-Path)\Themes"

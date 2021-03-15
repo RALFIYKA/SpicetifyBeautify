@@ -1,6 +1,6 @@
 # SpicetifyBeautify
 
-[](https://github.com/RALFIYKA/SpicetifyBeautify/blob/main/Spcie.png)
+https://github.com/RALFIYKA/SpicetifyBeautify/blob/main/Spcie.png
 
 ## Description
 

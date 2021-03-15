@@ -14,7 +14,7 @@ Run SpicetifyBeautify.exe
 
 ## Error fixes
 
-If something went wrong or haven't installed? just try again - probability of **success** will increase
+If something went wrong or haven't installed, just try again - probability of **success** will increase
 
 ## Contributing
 

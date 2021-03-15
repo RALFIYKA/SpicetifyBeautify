@@ -1,6 +1,6 @@
 # SpicetifyBeautify
 
-https://github.com/RALFIYKA/SpicetifyBeautify/blob/main/Spcie.png
+![Spcie](https://user-images.githubusercontent.com/47676479/111205904-a8130a80-85bf-11eb-8e80-0dfb87ccfebc.png)
 
 ## Description
 

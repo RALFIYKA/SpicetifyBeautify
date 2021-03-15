@@ -1,6 +1,5 @@
 # SpicetifyBeautify
 
-//Screenshot
 
 ## Description
 

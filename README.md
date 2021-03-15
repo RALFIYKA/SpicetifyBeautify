@@ -1,4 +1,4 @@
-# Spicetify-themes app
+# SpicetifyBeautify
 
 //Screenshot
 
@@ -22,4 +22,4 @@ If you are interested in reporting/fixing issues and contributing directly to th
 
 ## License
 
-[MIT](https://github.com/RALFIYKA/Spicetify-themes-app/blob/main/LICENSE)
+[GPL-3.0 License](https://github.com/RALFIYKA/Spicetify-themes-app/blob/main/LICENSE)

@@ -1,6 +1,6 @@
 # SpicetifyBeautify
 
-![Spcie](https://user-images.githubusercontent.com/47676479/111205904-a8130a80-85bf-11eb-8e80-0dfb87ccfebc.png)
+![spc](https://user-images.githubusercontent.com/47676479/111206547-69318480-85c0-11eb-8d15-cbec9fafd443.png)
 
 ## Description
 

@@ -28,8 +28,8 @@ echo.
 @echo               .-:/+oooooooo+/:-.                                                            
 @echo.
 @echo off   
-@powershell rm $(spicetify -c) >nul
-spicetify backup aplly >nul
+@powershell rm $(spicetify -c) 
+spicetify backup apply >nul
 echo y|spicetify restore backup >nul
 spicetify apply >nul
 spicetify config current_theme BIB-Green >nul

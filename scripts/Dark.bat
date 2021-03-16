@@ -29,7 +29,7 @@ echo.
 @echo.
 @echo off   
 @powershell rm $(spicetify -c) >nul
-spicetify backup aplly >nul
+spicetify backup apply >nul
 echo y|spicetify restore backup >nul
 spicetify apply >nul
 spicetify config current_theme Dark >nul

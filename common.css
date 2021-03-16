@@ -35,10 +35,11 @@
 .header {
     color: #ffffff70;
     font-family: "Dancing Script", cursive;
-    font-size: 18px;
+    text-align: center;
+    font-size: 22px;
     position: relative;
-    margin-top: -19px;
-    margin-left: 1px;
+    margin-top: -24px;
+    margin-left:0px;
     align-content: flex;
     width: 181px;
     height: 50px;
@@ -78,6 +79,8 @@
 }
 
 a.link {
+    text-align: left;
+    line-height: 40px;
     color: #ffffff70;
     text-decoration: none;
 }

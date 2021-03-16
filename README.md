@@ -1,5 +1,6 @@
-![123123123s](https://user-images.githubusercontent.com/72037566/111373788-3eb0fb80-8694-11eb-94b8-d266ba8e9c58.png) # SpicetifyBeautify
 
+# SpicetifyBeautify
+![123123123s](https://user-images.githubusercontent.com/72037566/111373788-3eb0fb80-8694-11eb-94b8-d266ba8e9c58.png)
 ![screen](https://user-images.githubusercontent.com/47676479/111206716-a39b2180-85c0-11eb-8cb1-902e2a5b3641.png)
 
 ## Description

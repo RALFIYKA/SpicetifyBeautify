@@ -1,3 +1,4 @@
+[![Github All Releases](https://img.shields.io/github/downloads/RALFIYKA/SpicetifyBeautify/total.svg)]()
 
 # SpicetifyBeautify
 ![123123123s](https://user-images.githubusercontent.com/72037566/111373788-3eb0fb80-8694-11eb-94b8-d266ba8e9c58.png)

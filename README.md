@@ -1,8 +1,8 @@
 # SpicetifyBeautify
 [![Github All Releases](https://img.shields.io/github/downloads/RALFIYKA/SpicetifyBeautify/total.svg)]()
 
-![123123123s](https://user-images.githubusercontent.com/72037566/111373788-3eb0fb80-8694-11eb-94b8-d266ba8e9c58.png)
-<img src="https://user-images.githubusercontent.com/47676479/111206716-a39b2180-85c0-11eb-8cb1-902e2a5b3641.png" alt="img" align="right" width="400px">  
+<img src="https://user-images.githubusercontent.com/72037566/111373788-3eb0fb80-8694-11eb-94b8-d266ba8e9c58.png" alt="img" align="right" width="400px"> 
+<img src="https://user-images.githubusercontent.com/47676479/111206716-a39b2180-85c0-11eb-8cb1-902e2a5b3641.png" alt="img" align="right" width="1000px">  
 
 ## Description
 
